@@ -1,3 +1,8 @@
+import sprites.*;
+import sprites.maths.*;
+import sprites.utils.*;
+
+//imagenes
 PImage fondo1;
 PImage run1;
 //personaje 
