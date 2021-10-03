@@ -30,8 +30,9 @@ void control() {
           }
           else if(keyCode==RIGHT  ){
             if (x<760 &&y<246){x=x+5;}//limite borde
-            else if (x<=180&& y>245&&y<340){}//limite gim
-           // else if (x>180&&x<580&&y>340&&y<380){x=x+5;}
+            else if (x<90&&x<180&& y>245&&y<340){}//limite gim
+            else if (x<520&&y>330&&y<400){x=x+5;}//mitad
+            else if (x>90&&x<180){x=x+5;}//bugg gim correcion
           }                                       
           else if(keyCode==LEFT&&x>95){x=x-5;}
                   } 
@@ -44,8 +45,8 @@ void move(){
    circle(x,y,r);
     //puntos de pantalla 
   textSize(30);
-  text(mouseX,0,20);
-  text(mouseY,0,50); 
+  text(x,0,20);
+  text(y,0,50); 
 }//cierra el move 
 
 
