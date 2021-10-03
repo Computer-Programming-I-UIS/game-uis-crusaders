@@ -5,23 +5,35 @@ personaje(int xp,int yp, int rp){
 }//cierra el constructor 
 
 void control() {
-//  translate(400,300);
+
   if (keyPressed){
   if(key ==CODED){
-          if ((keyCode==UP && y>200 && y>340 && y>570) //tres zonas filas 
-            ||(keyCode==UP && x>90 && x<140 && y<250 && y>90+r) //puente
-            ||(keyCode==UP && x>620 && y>160+r/2) //auditorio esquina sup.derecha 
-            ||(keyCode==UP && x>180 && x<540 && y<400 &&y>340)//segunda fila abajao del centro pkm
-            ||(keyCode==UP && x>90 && x<180 &&y>220&&y<600) //subida desde borde inferior
-            ||(keyCode==UP && x>560 && x<800 && y>560 ))
-              {y=y-5;}
-      
-          else if(keyCode==DOWN && y<600-r/2||
-                  keyCode==DOWN && x>90 &&x<140 && y<160
-                                                )
-                  {y=y+5;}
-          else if(keyCode==RIGHT){x=x+5;}
-          else if(keyCode==LEFT){x=x-5;}
+          if (keyCode==UP ){
+            if(y>110 &&y<120){y=y-5;}//borde sup
+            else if((y>110) && (y<120) && (x<90) &&(x<440) ){y=y-5;}//cudrante sup      
+            else if ((x>90&&x<140&&y>110)){y=y-5;}//escaleras y pasilo hasta 140
+            else if ((x>90&&x<180&&y>200)){y=y-5;}//escaleras y pasilo hasta 180
+            else if (y>340 && y<360){y=y-5;}
+            else if ((y>340 && x<800&&x>140)){y=y-5;} //divisor mitad
+            else if (y>570){y=y-5;}
+            else if ( y>560 && y<800) {y=y-5;} //divisor inferior falla
+           
+          }                                  
+          else if(keyCode==DOWN ){
+          if(y<130 &&x<440&&x>140){y=y+5;}//bajar del supp
+          else if (x>90 &&x<140 && y<580){y=y+5;}//puente
+          else if (x>90 &&x<180 && y<580){y=y+5;}//camino prin,,bajada
+          else if (y<220){}
+          else if (x>180 &&x<760 && y<220 &&y>200){y=y+5;} 
+          else if (x>180 &&x<530 && y<380){y=y+5;}//limite inf mid zone
+          
+          }
+          else if(keyCode==RIGHT  ){
+            if (x<760 &&y<246){x=x+5;}//limite borde
+            else if (x<=180&& y>245&&y<340){}//limite gim
+           // else if (x>180&&x<580&&y>340&&y<380){x=x+5;}
+          }                                       
+          else if(keyCode==LEFT&&x>95){x=x-5;}
                   } 
   }//keypessed
 }//void control
@@ -30,6 +42,10 @@ void control() {
 void move(){
    fill(0);
    circle(x,y,r);
+    //puntos de pantalla 
+  textSize(30);
+  text(mouseX,0,20);
+  text(mouseY,0,50); 
 }//cierra el move 
 
 

@@ -1,8 +1,8 @@
 class npc{
-
+int xn,yn,rn;
 
 npc(int xp,int yp, int rp){
-  x=xp; y=yp;r=rp;
+  xn=xp; yn=yp;rn=rp;
 }//cierra el constructor 
 
 
@@ -10,7 +10,7 @@ npc(int xp,int yp, int rp){
 
 void move(){
    fill(0);
-   circle(x,y,r);
+   circle(xn,yn,rn);
 }//cierra el move 
 
 void npc1(){

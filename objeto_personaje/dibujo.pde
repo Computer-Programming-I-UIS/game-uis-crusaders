@@ -16,21 +16,23 @@ void setup(){
 size (800,600);
 fondo1 = loadImage("R.png");
 run1 = loadImage("run1.JPG");
-prota= new personaje (100,150,30);
-npc1= new npc(500,400,20);
+prota= new personaje (100,122,30);
+npc1= new npc(500,600,20);
 }//fin void setup
 
 void draw(){
   imageMode (CENTER);//fondo,menu de opciones 
-  background(0,0);
+  background(0);
+  
+  pushMatrix();
+//  translate(128,10);
+ // fondo1.resize(2500,910);
   image(fondo1,600,400);
+  popMatrix();
   
   //personaje
   prota.move();
   prota.control();
   
-  //puntos de pantalla 
-  textSize(30);
-  text(mouseX,0,20);
-  text(mouseY,0,50); 
+ 
 }//fin del draw 
