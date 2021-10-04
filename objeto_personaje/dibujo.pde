@@ -52,7 +52,7 @@ void draw(){
  
 //---------------------dibujo-personaje--------------------------//
   prota.move();  prota.control();
-  npcnewton.punto();
+  npcnewton.punto();npcnewton.preguntas();
 //----------------------sprite
  
  
