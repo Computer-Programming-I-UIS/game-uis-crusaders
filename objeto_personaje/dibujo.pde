@@ -3,6 +3,7 @@ import sprites.maths.*;
 import sprites.utils.*;
 //sprites
 Sprite prota1;//crea el sprite
+Sprite newton;
 StopWatch reloj;
 float tiempo=0;
 //imagenes
@@ -14,13 +15,13 @@ int x,y,r;
 int xn,yn;//npc
 //clase p,npc,en
 personaje prota;
-npc npc1;
+npc npcnewton;
 
 void setup(){
 size (800,600);
 //sprite
 prota1=new Sprite(this,"prota.png",4,4,0);//carga el sprite
-
+newton=new Sprite(this,"newton.png",4,1,0);//carga el sprite #filas #colomnas
 
 
 reloj=new StopWatch();//el que cuenta el tiempo para los sprites 
@@ -33,7 +34,7 @@ fondo1 = loadImage("R.png");
 run1 = loadImage("run1.JPG");
 //objetos
 prota= new personaje (100,122,30);//CIRCULO
-npc1= new npc(500,600,20);
+npcnewton= new npc(725,155,20);
 }//fin void setup
 
 void draw(){
@@ -50,8 +51,8 @@ void draw(){
   
  
 //---------------------dibujo-personaje--------------------------//
-  prota.move();
-  prota.control();
+  prota.move();  prota.control();
+  npcnewton.punto();
 //----------------------sprite
  
  
