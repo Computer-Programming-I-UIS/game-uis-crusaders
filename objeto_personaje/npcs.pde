@@ -20,11 +20,20 @@ void punto(){
 }//cierra el move 
 
 void preguntas(){
+  
   if (preguntar){
   fill(0);
   rect(10,490,730,100);
-  }//if preguntar
-    
+  fill(#FFFFFF);
+  textSize(25);
+  if (preguntar){
+  text("Hola primiparo, veo que no sabes donde estas parado.",20,515);
+  text("Bienvenido a la UIS,ahora empieza tu aventura hasta que",20,540);
+  text("logres obtener un titulo....",20,565);}  
+  
+  
+  
+}//if preguntar
 }//void preguntar
 
 }
