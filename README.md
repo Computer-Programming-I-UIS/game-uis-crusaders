@@ -37,7 +37,7 @@ Uis-Crusaders
 https://www.pixilart.com/draw
 
 ### Desarrollador 
-U-IS CRUSADERS
+- UIS CRUSADERS
 
 ### Director general 
 - Carlos Roa
