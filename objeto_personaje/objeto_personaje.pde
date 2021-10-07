@@ -1,6 +1,3 @@
-
-
-
 class personaje{
 personaje(int xp,int yp, int rp){
   x=xp; y=yp;r=rp;
@@ -38,37 +35,24 @@ void control() {
           }                                       
           else if(keyCode==LEFT&&x>95){x=x-3;}
           
-                  } 
+   }//keyCoded
   }//keypessed
 }//void control
 
 
-void move(){
-  /* fill(0);
-   circle(x,y,r);
-   //puntos de pantalla 
-  textSize(30);
-  text(x,0,20);
-  text(y,0,50); 
- */ 
-  
+void move(){  
   if (keyPressed && key==CODED )
     {
      if (keyCode==UP ){prota1.setFrameSequence(12,15,0.1);}                     
      else if(keyCode==DOWN ){prota1.setFrameSequence(0,3,0.1);}
      else if(keyCode==RIGHT  ){prota1.setFrameSequence(8,11,0.1);}                                       
      else if(keyCode==LEFT){prota1.setFrameSequence(4,7,0.1);}  
-     //else{prota1.setFrameSequence(3,3,0.1);}
     } 
-    pushMatrix();
+ pushMatrix();
  translate(x,y);
  scale(0.014);
  prota1.draw();
  popMatrix();
 }//cierra el move 
 
-
-
-
-
-}
+}//cierra la clase 
