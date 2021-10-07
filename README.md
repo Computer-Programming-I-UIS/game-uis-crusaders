@@ -49,10 +49,10 @@ U-IS CRUSADERS
 - Carlos Roa 
 
 ### Artista principal 
--David Astro
+- David Astro
 
 ### Banda Sonora 
--David Astro
+- David Astro
 
 ## Agradecimientos especiales
 
@@ -69,7 +69,7 @@ https://www.youtube.com/watch?v=iSRg4RvBKwM
 https://www.youtube.com/watch?v=yMBFdtRbFD0
 
 ### Escenarios
--Nintendo (2007) Pokémon Diamond y Pokémon Pearl (version Diamond) [Videojuego] Junichi Masuda 
+- Nintendo (2007) Pokémon Diamond y Pokémon Pearl (version Diamond) [Videojuego] Junichi Masuda 
 
 ### Diseño de personajes
 - Nintendo (1981) Donkey Kong (versión arcade) [Videojuego] Gunpei Yokoi
