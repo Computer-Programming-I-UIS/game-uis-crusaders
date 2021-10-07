@@ -21,6 +21,9 @@ Uis-Crusaders
 
 
 ## Capturas de Pantalla
+
+![WhatsApp Image 2021-10-06 at 5 28 48 PM](https://user-images.githubusercontent.com/89653046/136405248-10c8f755-019a-4b7a-b74d-55f704cc4ad2.jpeg)
+
 ![WhatsApp Image 2021-10-06 at 5 29 22 PM](https://user-images.githubusercontent.com/89653046/136405080-469c4c03-29de-43f2-8cba-be2bf6b21482.jpeg)
 
 
@@ -88,6 +91,6 @@ https://www.youtube.com/watch?v=yMBFdtRbFD0
 ### Música y sonidos
 
 
-https://www.pixilart.com/draw
+
 
 
