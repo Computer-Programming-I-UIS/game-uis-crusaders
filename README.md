@@ -21,16 +21,18 @@ Uis-Crusaders
 
 
 ## Capturas de Pantalla
-
+#Menu de inicio
 ![WhatsApp Image 2021-10-06 at 5 28 48 PM](https://user-images.githubusercontent.com/89653046/136405248-10c8f755-019a-4b7a-b74d-55f704cc4ad2.jpeg)
-
+#Menu de instrucciones 
 ![WhatsApp Image 2021-10-06 at 5 29 22 PM](https://user-images.githubusercontent.com/89653046/136405080-469c4c03-29de-43f2-8cba-be2bf6b21482.jpeg)
 
 
 ## Características Principales :
- de dirección Arriba, Izquierda y Derecha
+ los controles de movimiento permiten al usuario moverse en un plano carteciano a partir de los botones "flechas del teclado", ademas de contar con mini juegos en los cuales se implementa un sistema de disparo y salto con los cuales el protagosnista puede 
+ 
+ 
 
-*Nota:* Para moverse por los menús, use el mouse y para regresar use la tecla esc.
+*Nota:* Para moverse por los menús, use el mouse y para regresar use los espacios de munu dispuestos en las esquinas superiores derechas.
 
 ## Otras Características
 - Animación de los jugadores y objetos con sprites.
@@ -53,9 +55,6 @@ https://www.pixilart.com/draw
 - Carlos Roa 
 
 ### Artista principal 
-- David Astro
-
-### Banda Sonora 
 - David Astro
 
 ## Agradecimientos especiales
