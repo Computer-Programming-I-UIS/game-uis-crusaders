@@ -56,7 +56,7 @@ https://www.pixilart.com/draw
 
 ## Agradecimientos especiales
 
-###Banda Sonora 
+### Banda Sonora 
 - Mega Man 8-bit Deathmatch OST – Evil Robot (CutmanMike)
 https://www.youtube.com/watch?v=cMYn83e92YI
 - Mega Man 8-bit Deathmatch OST – Oil Man (CutmanMike) 
