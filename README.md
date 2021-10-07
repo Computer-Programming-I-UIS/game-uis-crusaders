@@ -1,5 +1,6 @@
 ![image](https://user-images.githubusercontent.com/89653046/136407555-bf30477b-dcca-4326-8d85-d96827b3fa15.png)
 - Esta es la historia de "Maximo" un estudiante que acaba de terminar sus años en la secundaria y ahora emprende un viaje de aprendizaje ante el desafío máximo obtener un título en latam.
+- Durante tu aventura completa los quizzes de los npc, Busca los fracmentos de tesis completa los cursos, obten la armadura de combate y haste digno de enfrentar al enemigo final en una epica batalla a muerte por tu titulo.
 
 ## GamePlay Lanzamiento
 
@@ -22,7 +23,7 @@
 ## Capturas de Pantalla
 ## *Menu de inicio*
 ![WhatsApp Image 2021-10-06 at 5 28 48 PM](https://user-images.githubusercontent.com/89653046/136405248-10c8f755-019a-4b7a-b74d-55f704cc4ad2.jpeg)
-## *Menu de instrucciones *
+## *Menu de instrucciones*
 ![WhatsApp Image 2021-10-06 at 5 29 22 PM](https://user-images.githubusercontent.com/89653046/136405080-469c4c03-29de-43f2-8cba-be2bf6b21482.jpeg)
 
 
