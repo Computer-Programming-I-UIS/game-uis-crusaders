@@ -30,6 +30,9 @@ PImage ajuste;
 //------------------------------------------------personaje-----------------------------------------------------------------------------//
 int x, y, r;
 int xn, yn;//npc
+//-------------------------------------------------npc----------------------------------------------------------------------------------//
+int pre=0;
+
 //---------------------------------------------clase p,npc,en---------------------------------------------------------------------------//
 personaje prota;
 npc npcnewton;
@@ -49,7 +52,7 @@ void setup() {
   minim= new Minim(this);
   menusonido= minim.loadFile("Menu.mp3");
   mapasong=  minim.loadFile("mapa.mp3");
-  menusonido.loop(999);
+  menusonido.loop();
 
 //--------------------------------------------------imagenes------------------------------------------------------------------//
   fondo1 = loadImage("R.png");
@@ -77,7 +80,8 @@ void draw() {
   image(menu,450,350,900,700);
   menusonido.play();//------------------------sonido menu______________________________
   if(menusonido.position() == menusonido.length())
-  {menusonido.rewind();menusonido.play();}
+  {menusonido.rewind();
+   }  
   mapasong.pause();
   popMatrix();
   ////////////////////-----selecciones menu principal -------------------------------------------////////////////////////
