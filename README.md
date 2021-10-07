@@ -21,6 +21,7 @@ Uis-Crusaders
 
 
 ## Capturas de Pantalla
+![WhatsApp Image 2021-10-06 at 5 29 22 PM](https://user-images.githubusercontent.com/89653046/136405080-469c4c03-29de-43f2-8cba-be2bf6b21482.jpeg)
 
 
 ## Características Principales :
