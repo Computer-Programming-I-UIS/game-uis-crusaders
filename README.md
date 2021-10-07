@@ -1,6 +1,4 @@
 ![image](https://user-images.githubusercontent.com/89653046/136407555-bf30477b-dcca-4326-8d85-d96827b3fa15.png)
-
-================
 - Esta es la historia de "Maximo" un estudiante que acaba de terminar sus años en la secundaria y ahora emprende un viaje de aprendizaje ante el desafío máximo obtener un título en latam.
 
 ## GamePlay Lanzamiento
