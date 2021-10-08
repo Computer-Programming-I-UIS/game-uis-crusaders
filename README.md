@@ -26,11 +26,11 @@
 
 
 ## Características Principales :
- los controles de movimiento permiten al usuario moverse en un plano carteciano a partir de los botones "flechas del teclado", ademas de contar con mini juegos en los cuales se implementa un sistema de disparo y salto con los cuales el protagosnista puede 
+ los controles de movimiento permiten al usuario moverse en un plano carteciano a partir de los botones "flechas del teclado", ademas de contar con mini juegos en los cuales se implementa un sistema de disparo y salto.
  
  
 
-*Nota:* Para moverse por los menús, use el mouse y para regresar use los espacios de munu dispuestos en las esquinas superiores derechas.
+*Nota:* Para moverse por los menús, use el mouse y para regresar use los espacios de menu dispuestos en las esquinas superiores derechas.
 
 ## Otras Características
 - Animación de los jugadores y objetos con sprites.
