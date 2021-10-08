@@ -16,7 +16,7 @@
 
 
 ## Requisitos:📋
-
+- Instalar [Processing](https://processing.org/download)(Processing 4.0 beta 2 o superior)
 
 ### Código
 
