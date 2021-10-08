@@ -91,7 +91,4 @@ https://www.youtube.com/watch?v=yMBFdtRbFD0
 
 ### Clasificacion 
 
-Recomendado para toda la familia/ Para personas de más de 7 años
-
-![./Media_Readme/Clasificacion.png](./Media_Readme/Clasificacion.png)
 
