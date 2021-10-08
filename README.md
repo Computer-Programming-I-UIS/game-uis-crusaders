@@ -14,7 +14,7 @@
 ### Juego
 
 
-##*Requisitos:*📋
+## *Requisitos:*📋
 
 
 ### Código
