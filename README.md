@@ -18,9 +18,6 @@
 ## Requisitos:📋
 - Instalar [Processing](https://processing.org/download)(Processing 4.0 beta 2 o superior)
 
-### Código
-
-
 ## Capturas de Pantalla
 ## *Menu de inicio*
 ![WhatsApp Image 2021-10-06 at 5 28 48 PM](https://user-images.githubusercontent.com/89653046/136405248-10c8f755-019a-4b7a-b74d-55f704cc4ad2.jpeg)
