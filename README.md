@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/89653046/136504146-7c73fe4a-3b76-4de5-
 
 ## Requisitos:📋
 - Instalar [Processing](https://processing.org/download)(Processing 4.0 beta 2 o superior)
-
+- Importar las bibliotecas Minim y Sprites
 ## Capturas de Pantalla
 ## *Menu de inicio*
 ![WhatsApp Image 2021-10-06 at 5 28 48 PM](https://user-images.githubusercontent.com/89653046/136405248-10c8f755-019a-4b7a-b74d-55f704cc4ad2.jpeg)
@@ -81,7 +81,7 @@ https://www.pixilart.com/draw
 
 ### Gráficos
 
-### Música y sonidos
+### Efectos de sonidos
 
 ### Clasificacion 
 
