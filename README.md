@@ -22,7 +22,9 @@
 ## *Menu de inicio*
 ![WhatsApp Image 2021-10-06 at 5 28 48 PM](https://user-images.githubusercontent.com/89653046/136405248-10c8f755-019a-4b7a-b74d-55f704cc4ad2.jpeg)
 ## *Menu de instrucciones*
-![WhatsApp Image 2021-10-06 at 5 29 22 PM](https://user-images.githubusercontent.com/89653046/136405080-469c4c03-29de-43f2-8cba-be2bf6b21482.jpeg)
+![inst](https://user-images.githubusercontent.com/89647374/136489928-c76af024-8a1a-4e82-b58c-fe304e2ca417.jpeg)
+## *Configuracion de sonido*
+![1](https://user-images.githubusercontent.com/89647374/136489998-22b62a35-164b-4a9a-a5c2-b94626c59782.jpeg)
 
 
 ## Características Principales :
