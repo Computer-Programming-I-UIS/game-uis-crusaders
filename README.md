@@ -59,7 +59,7 @@ https://www.pixilart.com/draw
 
 ### Banda Sonora 
 - Mega Man 8-bit Deathmatch OST – Evil Robot [CutmanMike](https://www.youtube.com/watch?v=cMYn83e92YI)
-- Mega Man 8-bit Deathmatch OST – Oil Man [CutmanMike] (https://www.youtube.com/watch?v=1WobJh5PKWg)
+- Mega Man 8-bit Deathmatch OST – Oil Man [CutmanMike](https://www.youtube.com/watch?v=1WobJh5PKWg)
 - Build Our Machine (2021 Remaster) {8 Bit Tribute to DaGames & Bendy and the Ink Machine} [8 Bit Universe](https://www.youtube.com/watch?v=grz6nFepQHM)
 - Gospel of Dismay {8 Bit Tribute to DaGames & Bendy and the Ink Machine} [8 Bit Universe](https://www.youtube.com/watch?v=iSRg4RvBKwM)
 - Gangplank Galleon Restored to HD {Donkey Kong Country} [TerraBlue](https://www.youtube.com/watch?v=yMBFdtRbFD0)
