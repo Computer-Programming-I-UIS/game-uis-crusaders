@@ -12,6 +12,7 @@
 
 ## Descarga e Instalación
 ### Juego
+- Descarga la última versión de UIS Crusaders 
 
 
 ## Requisitos:📋
