@@ -12,6 +12,7 @@ import sprites.utils.*;
 //--------------------------------------------------sprites----------------------------------------------------------------------------//
 Sprite prota1;//crea el sprite
 Sprite newton;
+Sprite porras;
 StopWatch reloj;
 float tiempo=0;
 //--------------------------------------------------sonido-----------------------------------------------------------------------------//
@@ -25,6 +26,7 @@ PImage run1;
 PImage menu,iconoM;
 PImage instruccion;
 PImage ajuste;
+PImage credi;
 
 
 //------------------------------------------------personaje-----------------------------------------------------------------------------//
@@ -46,7 +48,8 @@ void setup() {
   size (800, 600);
 //---------------------------------------------------sprite-------------------------------------------------------------------//
   prota1=new Sprite(this, "prota.png", 4, 4, 0);//carga el sprite
-  newton=new Sprite(this, "newton.png", 4, 1, 0);//carga el sprite #filas #colomnas
+  newton=new Sprite(this, "newton.png", 2, 1, 0);//carga el sprite #filas #colomnas
+  porras=new Sprite(this,"porrast.png",5,1,0);
   reloj=new StopWatch();//el que cuenta el tiempo para los sprites
 //---------------------------------------------------sonido-------------------------------------------------------------------//
   minim= new Minim(this);
@@ -61,7 +64,8 @@ void setup() {
   iconoM= loadImage("icono-menu.png");
   instruccion= loadImage("instrucciones.JPG");
   ajuste= loadImage("ajustes.JPG");
-  //objetos
+  credi= loadImage("creditos.jpeg");
+//------------------------------------------------objetos
   prota= new personaje (100, 122, 30);//CIRCULO
   npcnewton= new npc(725, 155, 20);
 }//fin void setup
@@ -78,20 +82,26 @@ void draw() {
   pushMatrix();
   scale(0.89);
   image(menu,450,350,900,700);
-  menusonido.play();//------------------------sonido menu______________________________
+  pushMatrix();
+  translate(550,410);
+  scale(2);
+  porras.setFrameSequence(0,4,0.2);
+  porras.draw();
+  popMatrix();
+  //-------------------------------------------------------------------sonido menu__________________________________________________________///
+  menusonido.play();
   if(menusonido.position() == menusonido.length())
-  {menusonido.rewind();
-   }  
+  {menusonido.rewind();}  
   mapasong.pause();
   popMatrix();
-  ////////////////////-----selecciones menu principal -------------------------------------------////////////////////////
+  ////////////////////-------------------------------------selecciones menu principal -------------------------------------------////////////////////////
   //puntos de pantalla para delimitar regiones //
-  
+  /*
   textSize(50);
   fill(#FFFFFF);
   text(mouseX,100,150);
   text(mouseY,100,200); 
-  
+  */
  /////-----------------------------------------------------menu principal ------------------------------------------------------------////// 
 if(mousePressed && mouseX<=235 && mouseX>=7 && mouseY>230 && mouseY<290){juego=true;} else if(juego && mousePressed && mouseX>735 && mouseX<785 && mouseY>10 && mouseY<60){juego=false;}//127=suprimir
 
@@ -112,13 +122,14 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
   scale(0.05);
   image(iconoM,15220,680);
   popMatrix();
+  
 //puntos de pantalla 
- 
+ /*
   textSize(50);
   fill(#FFFFFF);
   text(mouseX,100,150);
   text(mouseY,100,200); 
-
+*/
   //---------------------dibujo-personaje--------------------------//
   prota.move();
   prota.control();
@@ -139,11 +150,13 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
   scale(0.1);
   prota1.setFrameSequence(0,3,1);
   prota1.draw();
+  /*
   textSize(500);
   fill(#FFFFFF);
   text(mouseX,100,150);
   text(mouseY,100,400); 
   popMatrix();
+  */
   }
   else if (ajustes){//----------------------------------------------------------------------sonido configuracion----------------------------------------------------------------
   pushMatrix();
@@ -160,26 +173,32 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
   prota1.setFrameSequence(0,3,1);
   prota1.draw();
 //////////////////////////puntos sobre pantalla ///////////
+/*
  textSize(500);
   fill(#FFFFFF);
   text(mouseX,100,150);
   text(mouseY,100,400); 
   popMatrix();
+*/
 //////////////////////////////////////////////////////////7
   
   }
-  else if (creditos){
-  
- 
+  else if (creditos){ 
   background(0);
+  pushMatrix();
+  int tiempo= second();
+  translate(0,300-(tiempo)*2);
+  image(credi,400,300,800,1200);
+  popMatrix();
   fill(#FFFFFF);
   rect(713,13,67,70);
   image(iconoM,750,50,80,80);
-  textSize(30);
+ //-----------------
+ /* textSize(30);
   fill(#FFFFFF);
   text(mouseX,100,150);
-  text(mouseY,100,200); 
- 
+  text(mouseY,100,200); */
+//---------------
   translate(100,400); 
   scale(0.1);
   prota1.setFrameSequence(0,15,1);
@@ -188,12 +207,6 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
  
 //////////////////////////////////////////////////////////7
   
-  }
-  
-  
-  
-  
-  
-  
-  
+  }  
+
 }//fin del draw
