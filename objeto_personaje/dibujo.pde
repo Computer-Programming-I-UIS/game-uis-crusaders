@@ -154,9 +154,9 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
   textSize(500);
   fill(#FFFFFF);
   text(mouseX,100,150);
-  text(mouseY,100,400); 
+  text(mouseY,100,400); */
   popMatrix();
-  */
+  
   }
   else if (ajustes){//----------------------------------------------------------------------sonido configuracion----------------------------------------------------------------
   pushMatrix();
@@ -177,9 +177,9 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
  textSize(500);
   fill(#FFFFFF);
   text(mouseX,100,150);
-  text(mouseY,100,400); 
+  text(mouseY,100,400); */
   popMatrix();
-*/
+
 //////////////////////////////////////////////////////////7
   
   }
@@ -187,7 +187,7 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
   background(0);
   pushMatrix();
   int tiempo= second();
-  translate(0,300-(tiempo)*2);
+  translate(0,300-(tiempo)*4);
   image(credi,400,300,800,1200);
   popMatrix();
   fill(#FFFFFF);
