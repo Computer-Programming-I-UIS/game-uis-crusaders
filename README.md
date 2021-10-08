@@ -6,7 +6,7 @@
 
 
 
-## Autores
+## Autores ✒️
 - David Astro
 - Carlos Roa 
 
@@ -14,7 +14,7 @@
 ### Juego
 
 
-##*Requisitos:*
+##*Requisitos:*📋
 
 
 ### Código
