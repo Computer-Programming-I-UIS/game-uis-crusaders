@@ -89,8 +89,8 @@ https://www.youtube.com/watch?v=yMBFdtRbFD0
 
 ### Música y sonidos
 
-###Clasificacion 
-<p align= "Left">
+### Clasificacion 
+<p align= "center">
 	<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pandaancha.mx%2Fnoticias%2Fcomo-se-clasifican-los-videojuegos.html&psig=AOvVaw1ozT6OnFTjPXm38DuUvg31&ust=1633739112794000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJjhvJHHufMCFQAAAAAdAAAAABAD">
 </p>
 
