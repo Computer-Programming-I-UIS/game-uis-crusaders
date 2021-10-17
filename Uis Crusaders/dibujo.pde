@@ -55,11 +55,10 @@ void setup() {
   minim= new Minim(this);
   menusonido= minim.loadFile("Menu.mp3");
   mapasong=  minim.loadFile("mapa.mp3");
-  menusonido.loop();
+
 
 //--------------------------------------------------imagenes------------------------------------------------------------------//
   fondo1 = loadImage("R.png");
-  run1 = loadImage("run1.JPG");
   menu= loadImage("menupro.png");
   iconoM= loadImage("icono-menu.png");
   instruccion= loadImage("instrucciones.JPG");
@@ -89,9 +88,9 @@ void draw() {
   porras.draw();
   popMatrix();
   //-------------------------------------------------------------------sonido menu__________________________________________________________///
-  menusonido.play();
-  if(menusonido.position() == menusonido.length())
-  {menusonido.rewind();}  
+ 
+  if(!menusonido.isPlaying()){menusonido.loop();}
+   
   mapasong.pause();
   popMatrix();
   ////////////////////-------------------------------------selecciones menu principal -------------------------------------------////////////////////////
@@ -114,8 +113,9 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
   if (juego){
   //-------------------------------------------------------sonido--------------------------------------------------------------------/////////////7
   menusonido.pause();//--------------pausa musica 
+  //if(!mapasong.isPlaying()){mapasong.loop();}
   mapasong.play();
-  menusonido.rewind();
+  
   //---------------------mapa-------------------------------------//
   pushMatrix();
   image(fondo1, 600, 400);//fondo de mapa

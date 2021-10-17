@@ -12,7 +12,7 @@ void punto(){
    circle(xn,yn,rn); 
    preguntar=true;
    }else {preguntar=false;}
-//-------------------------------------------------------------------------------------------------------//   
+//----------------------------------------------Newton---------------------------------------------------------//   
    newton.setFrameSequence(0,2,1);
    pushMatrix();
    translate(xn-35,yn);
@@ -24,11 +24,9 @@ void punto(){
 void preguntas(){
 
  //----------conteo de preguntas ------------//
-if (keyPressed){
-  if (key==' '){pre=pre+1;} 
-  else {}
-}
+
 //---------------preguntas ----------------------//  
+
 if (preguntar){
     fill(0);
     rect(10,490,730,100);
