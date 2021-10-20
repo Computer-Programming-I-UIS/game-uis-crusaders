@@ -143,12 +143,12 @@ if(mousePressed && mouseX<=250 && mouseX>=0 && mouseY>540 && mouseY<590){credito
   popMatrix();
   
 //puntos de pantalla 
- 
+ /*
   textSize(50);
   fill(#FFFFFF);
   text(mouseX,100,150);
   text(mouseY,100,200); 
-
+*/
   //---------------------dibujo-personaje--------------------------//
   prota.move();
   prota.control();

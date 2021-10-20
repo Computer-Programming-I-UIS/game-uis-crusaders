@@ -15,12 +15,13 @@ if (keyPressed){
 }//void control ya cogio esto
 
 void dibujo() {circle(xc,yc,30);textSize(50);
-  fill(#FFFFFF);
+  /* fill(#FFFFFF);
   text(mouseX,0,150);
   text(mouseY,0,200); 
   text(xc,0,250);
-  text(yc,0,300);}
-
+  text(yc,0,300);
+*/
+}
 void gravedad(){
 if(yc>=490){yc+=0;piso=true;}
 else if (xc>=220 && xc<=310 && yc>=390 &&yc<=400){yc+=0;piso=true;}//primeraplataforma
