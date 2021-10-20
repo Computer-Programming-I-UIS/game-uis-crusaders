@@ -4,8 +4,7 @@
 
 ## GamePlay Lanzamiento
 
-
-https://user-images.githubusercontent.com/89653046/136504146-7c73fe4a-3b76-4de5-9cbb-e3b6e5bdf3e9.mp4
+https://www.youtube.com/watch?v=YJgqVAPayh4
 
 
 
