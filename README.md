@@ -4,10 +4,7 @@
 
 ## GamePlay Lanzamiento
 
-https://www.youtube.com/watch?v=YJgqVAPayh4
-
-
-
+https://user-images.githubusercontent.com/89647374/138148951-a7794065-af2d-47a0-9372-cd0722923cf5.mp4
 
 ## Autores ✒️
 - David Astro
